@@ -141,6 +141,7 @@ Current List of Available Coins for Address Generation
 |ARS | Arkstone | A  |
 |ATMOS | Atmos | N  |
 |AUR | Auroracoin | A  |
+|AVN | Avian | R |
 |AXE | Axe | P |
 |BLAST | BLAST | B  |
 |BLK | Blackcoin | B  |

@@ -191,6 +191,7 @@ main(int argc, char **argv)
 					"ATMOS : Atmos : N\n"
 					"AUR : Auroracoin : A\n"
 					"AXE : Axe : P\n"
+					"AVN : Avian : R\n"
 					"BLAST : BLAST : B\n"
 					"BLK : Blackcoin : B\n"
 					"BWK : Bulwark : b\n"
@@ -1122,6 +1123,14 @@ main(int argc, char **argv)
 					"Generating Yenten Address\n");
 					addrtype = 78;
 					privtype = 123;
+					break;
+			}
+			else
+			if (strcmp(optarg, "AVN")== 0) {
+				fprintf(stderr,
+					"Generating Avian Address\n");
+					addrtype = 60;
+					privtype = 128;
 					break;
 			}
 			else

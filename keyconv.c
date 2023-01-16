@@ -95,6 +95,7 @@ main(int argc, char **argv)
 					"ARS : Arkstone : A\n"
 					"ATMOS : Atmos : N\n"
 					"AUR : Auroracoin : A\n"
+					"AVN : Avian : R\n"
 					"AXE : Axe : P\n"
 					"BLAST : BLAST : B\n"
 					"BLK : Blackcoin : B\n"
@@ -1036,6 +1037,14 @@ main(int argc, char **argv)
 					"Decrypting Yenten Address\n");
 					addrtype_opt = 78;
 					privtype_opt = 123;
+					break;
+			}
+			else
+			if (strcmp(optarg, "AVN")== 0) {
+				fprintf(stderr,
+					"Decrypting Avian Address\n");
+					addrtype_opt = 60;
+					privtype_opt = 128;
 					break;
 			}
 			else
